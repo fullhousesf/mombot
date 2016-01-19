@@ -13,3 +13,7 @@ and see the conversation implementation here: https://github.com/fullhousesf/mom
 Run `lein figwheel` in one terminal. Once that's running, run `BOT_KEY=get-the-bot-key-from-travis node target/server_dev/mombot.js` in another terminal.
 
 You'll need to get the botkey from @travis or slack's admin UI. Never check the bot key in. Code will be reloaded into the running app as you change it (because figwheel is boss).
+
+# Resources
+
+Mombot is a wrapper around https://github.com/howdyai/botkit - we'll keep expanding the wrapper as we develop, and eventually make it DSL-y. Yay LISP.
